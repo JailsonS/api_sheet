@@ -26,10 +26,10 @@ conversion route.
 >> git clone https://github.com/JailsonS/api_sheetgo
 
 ## Structure of Project
-<>-> controllers
-<>    -> excelcontroller.py
-    -> imagecontroller.py
--> models
-    -> auth.py
--> sample
-    -> sample.xlsx
+-> controllers <br>
+    -> excelcontroller.py <br>
+    -> imagecontroller.py <br>
+-> models <br>
+    -> auth.py <br>
+-> sample <br>
+    -> sample.xlsx <br>
