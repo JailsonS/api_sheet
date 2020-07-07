@@ -7,5 +7,9 @@ conversion route.
 - Python 3.7.2
 - Flask 1.1.2 
 
-## Libraries
+## Extra Libraries
 - Cross Origin Resource Sharing (CORS)
+- pyjwt
+- openpyxl
+
+## Structure Project
