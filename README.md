@@ -12,4 +12,11 @@ conversion route.
 - pyjwt
 - openpyxl
 
-## Structure Project
+## Installation
+- Install the requirements first
+- Install and create a virtualenv
+>> pip install virtualenv
+- clone the reposotory
+>> git clone https://github.com/JailsonS/api_sheetgo
+
+## Strcuture of Project
