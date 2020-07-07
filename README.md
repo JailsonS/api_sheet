@@ -33,3 +33,13 @@ conversion route.
 -------> <b>auth.py</b> [ it contains information and methods to authenticate data ] <br>
 -> <b>sample</b> <br>
 -------> <b>sample.xlsx</b> [ it contains a simple xlsx file with some information. It can be used to test the routes ]
+
+## Testing the API
+A very simple way to test the API is using the website https://resttesttest.com/. The endpoints that will be test are:
+- [YOUR_BASE_DIR]/excel/info
+- [YOUR_BASE_DIR]/image/convert
+### Run the project
+- Activate the virtualenv and go to the project's directory
+- run the code below:
+>> flask run
+## 
