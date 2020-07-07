@@ -27,9 +27,9 @@ conversion route.
 
 ## Structure of Project
 -> controllers <br>
-    -> excelcontroller.py <br>
-    -> imagecontroller.py <br>
+-------> excelcontroller.py <br>
+-------> imagecontroller.py <br>
 -> models <br>
-    -> auth.py <br>
+-------> auth.py <br>
 -> sample <br>
-    -> sample.xlsx <br>
+-------> sample.xlsx <br>
