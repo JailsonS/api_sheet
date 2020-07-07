@@ -65,4 +65,7 @@ If you want to check the JWT decoded go to https://jwt.io/#debugger-io and past 
 - the converted image can be found in your root virtualenv dir
 
 ### Examples
+#### Testing route
 ![res](https://user-images.githubusercontent.com/26066407/86701849-c49a8400-bfe8-11ea-8bea-0a86156b9f45.PNG)
+#### Checking JWT
+![res_jwt](https://user-images.githubusercontent.com/26066407/86702505-67eb9900-bfe9-11ea-8005-b210d44f2be3.PNG)
