@@ -51,7 +51,7 @@ Go to https://resttesttest.com/, set the POST method and input PARAMETERS
 - .xlsx file the parameter name must be "sample_file" and the parameter value is the sample file in the Sample folder
 #### Output data
 - json with some info: res_tab (tabs of the file ordered alphabetically), res (value of the first tab), jwt_token (JWT token encoded, the [b'] is not part of JWT!)
-If you want to check the JWT decoded go to https://jwt.io/#debugger-io and past only the JWT token response, check "secret base64 encoded" 
+If you want to check the JWT decoded go to https://jwt.io/#debugger-io and past only the JWT token response, mark "secret base64 encoded" 
 
 ### Testing [YOUR_BASE_DIR]/image/convert ROUTE
 #### Input data
