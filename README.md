@@ -24,3 +24,12 @@ conversion route.
 - Install the extra libraries
 - clone the reposotory
 >> git clone https://github.com/JailsonS/api_sheetgo
+
+## Structure of Project
+-> controllers
+    -> excelcontroller.py
+    -> imagecontroller.py
+-> models
+    -> auth.py
+-> sample
+    -> sample.xlsx
