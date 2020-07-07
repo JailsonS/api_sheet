@@ -38,15 +38,31 @@ conversion route.
 A very simple way to test the API is using the website https://resttesttest.com/. The endpoints that will be tested are:
 - [YOUR_BASE_DIR]/excel/info
 - [YOUR_BASE_DIR]/image/convert
+
 ### Run the project
 - Activate the virtualenv and go to the project's directory
 - run the code below:
 >> flask run
-### Testing [YOUR_BASE_DIR]/excel/info route
+
+### Testing [YOUR_BASE_DIR]/excel/info ROUTE
 Go to https://resttesttest.com/, set the POST method and input PARAMETERS
 #### Input data
-- email credentials, the parameter name must be "email" and the parameter value is one of the credentialed emails
+- email credentials, the parameter name must be "email" and the parameter value is one of the credentialed emails sent
 - .xlsx file the parameter name must be "sample_file" and the parameter value is the sample file in the Sample folder
 #### Output data
 - json with some info: res_tab (tabs of the file ordered alphabetically), res (value of the first tab), jwt_token (JWT token encoded)
 If you want to check the JWT decoded go to https://jwt.io/#debugger-io and past only the JWT token response, check "secret base64 encoded" 
+
+### Testing [YOUR_BASE_DIR]/image/convert ROUTE
+#### Input data
+- convert_type (PNG or JPEG), the parameter name must be "convert_type"
+- image file, the parameter name must be "input_img"
+#### Output data
+- format - image format output
+- size - image size
+- mode - RGB
+- PIL_obj - Pillow Object
+- the converted image can be found in your root virtualenv dir
+
+### Examples
+
