@@ -43,8 +43,10 @@ A very simple way to test the API is using the website https://resttesttest.com/
 - run the code below:
 >> flask run
 ### Testing [YOUR_BASE_DIR]/excel/info route
+Go to https://resttesttest.com/, set the POST method and input PARAMETERS
 #### Input data
-- email credentials, the parameter name must be "email"
-- .xlsx file (there is a sample file in sample folder), the parameter name must be "sample_file"
+- email credentials, the parameter name must be "email" and the parameter value is one of the credentialed emails
+- .xlsx file the parameter name must be "sample_file" and the parameter value is the sample file in the Sample folder
 #### Output data
 - json with some info: res_tab (tabs of the file ordered alphabetically), res (value of the first tab), jwt_token (JWT token encoded)
+If you want to check the JWT decoded go to https://jwt.io/#debugger-io and past only the JWT token response, check "secret base64 encoded" 
