@@ -35,11 +35,16 @@ conversion route.
 -------> <b>sample.xlsx</b> [ it contains a simple xlsx file with some information. It can be used to test the routes ]
 
 ## Testing the API
-A very simple way to test the API is using the website https://resttesttest.com/. The endpoints that will be test are:
+A very simple way to test the API is using the website https://resttesttest.com/. The endpoints that will be tested are:
 - [YOUR_BASE_DIR]/excel/info
 - [YOUR_BASE_DIR]/image/convert
 ### Run the project
 - Activate the virtualenv and go to the project's directory
 - run the code below:
 >> flask run
-## 
+### Testing [YOUR_BASE_DIR]/excel/info route
+#### Input data
+- email credentials, the parameter name must be "email"
+- .xlsx file (there is a sample file in sample folder), the parameter name must be "sample_file"
+#### Output data
+- json with some info: res_tab (tabs of the file ordered alphabetically), res (value of the first tab), jwt_token (JWT token encoded)
